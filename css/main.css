@@ -1,0 +1,403 @@
+
+/* reset样式 */
+body,div,h1,h2,h3,h4,h5,h6,a,span,ul,ol,li,dl,dd,p,input,textarea{margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{text-decoration: none;display: block;}
+img{border: none;}
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+input{border: none;}
+input,button,select,textarea{outline:none}
+textarea{resize:none}
+/* 公共样式 */
+.cleanfix::after{
+    display: block;
+    overflow: hidden;
+    height: 0;
+    content: "";
+    clear: both;
+}
+
+.L{
+    float: left;
+}
+
+.R{
+    float: right;
+}
+
+
+/* 标题滑动之后的样式 */
+#active{
+    color : #d0484f;
+}
+/* 按钮滑动之后的样式 */
+#btactive{
+    color: #dedede;
+    border: 1px solid #dedede;
+}
+/* header下面的线 */
+.hr1{
+    height: 6px;
+    width: 1020px;
+    background: #373b4a;
+    margin: 0 auto;
+}
+
+.hr2{
+    height: 6px;
+    width: 1020px;
+    background: #ea676b;
+    margin: 0 auto;
+}
+.hr3{
+    height: 6px;
+    width: 1020px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.gwidth{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+/* header样式开始 */
+.header{
+    height: 88px;
+    background: #303441;
+    position: relative;
+}
+
+.logo{
+    width: 114px;
+    margin-left: 40px;
+}
+.logo a {
+    line-height: 88px;
+}
+.logo a img{
+    width: 114px;
+    height: 20px;
+    vertical-align: middle;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    right: 38px;
+}
+
+.nav ul li{
+    float: left;
+    line-height: 88px;
+    margin-right: 28px;
+}
+
+.nav ul li a{
+    color: #cccccc;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* header结束 */
+
+/* section开始 */
+.section{
+    height: 594px;
+    background: #eb5055;
+}
+#banner{
+    position: relative;
+}
+.phoneL{
+    position: absolute;
+    top: 52px;
+    left: 112px;
+}
+.phoneL img{
+    width: 240px;
+    height: 482px;;
+}
+.phoneR{
+    position: absolute;
+    right: 110px;
+    top: 174px;
+}
+.phoneR img{
+    width: 486px;
+    height: 240px;
+}
+/* senction结束 */
+
+.content{
+    padding-bottom: 40px;
+    background: #f2f2f2;
+}
+
+.title{
+    padding-top: 66px;
+    margin: 0 40px;
+    color: #666d89;
+}
+
+.title h2{
+    font-size: 30px;
+    font-family: serif;
+}
+.title p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.content-icon{
+    margin: 48px 50px 0px 50px;
+    color: #666d89;
+}
+.content-icon .icon{
+    width: 300px;
+    height: 85px;
+    float: left;
+    padding-top: 38px;
+    overflow: hidden;
+    /* background: #ccc; */
+}
+.content-icon .icon img{
+    float: left;
+}
+
+.content-icon .icon h3{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.content-icon .icon p{
+    margin-left: 20px;
+    font-size: 12px;
+    text-indent: 2em;
+    overflow: hidden;
+}
+/* content结束 */
+
+.portfolio{
+    background: #303441;
+    padding-bottom: 66px;
+    /* height: 794px; */
+}
+
+.portfolio-content{
+    width: 940px;
+    margin: 0 40px;
+    padding-top: 66px;
+}
+
+.portfolio-content .portfolio-title p{
+    font-size: 18px;
+    color: #51576c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 32px;
+}
+
+.portfolio-content .portfolio-title h3{
+    font-size: 30px;
+    color: #666d89;
+}
+
+.buttom{
+    margin-top: 20px;
+}
+.buttom ul li{
+    border: 1px solid #666d89;
+    padding: 0 6px;
+    border-radius: 8px;
+    color: #666d89;
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.portfolio-img {
+    width: 960px;
+}
+.portfolio-img ul li{
+    width: 220px;
+    height: 186px;
+    /* background: #d0484f; */
+    float: left;
+    margin: 20px 20px 0px 0px;
+}
+/* porfolio结束 */
+
+.about{
+    background: #f2f2f2;
+}
+.about-content{
+    width: 980px;
+    margin: 0 36px;
+    padding-top: 66px;
+}
+
+.about-content .about-title p{
+    font-size: 18px;
+    color: #51576c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 32px;
+}
+
+.about-content .about-title h3{
+    font-size: 30px;
+    color: #666d89;
+}
+
+.about-img ul li{
+    width: 300px;
+   /*  height: 388px; */
+    color: #666d89;
+    margin-right: 24px;
+    float: left;
+    padding-bottom: 66px;
+}
+
+.about-img ul li a{
+    width: 300px;
+    height: 300px;
+    background: #51576c;
+}
+
+.about-img ul li h3{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.about-img ul li p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 18px;
+}
+
+.about-img ul li span,i{
+    display: block;
+    float: left;
+}
+
+.about-img ul li span img{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    margin-top: 30px;
+}
+
+/* about结束 */
+.quote{
+    background: #eb5055;
+    color: #f0d8d9;
+    padding-bottom: 66px;
+}
+
+.quote .quote-content .quote-bar .contact{
+    width: 620px;
+    height: 366px;
+   /*  background: #ca4549; */
+    margin-left: 40px;
+    margin-top: 48px;
+}
+
+.quote .quote-content .quote-bar .contact ul li input{
+    width: 610px;
+    height: 40px;
+    background: #ca4549;
+    padding-left: 8px;
+    color: #af9f9f;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+#text div{
+    height: 202px;
+    width: 618px;
+    background: #ca4549;
+    overflow: hidden;
+}
+
+#text div p{
+    margin: 12px 0px 0px 12px;
+    display: inline-block;
+    font-size: 12px;
+    color: #f48c8f;
+}
+.quote .quote-content .quote-title{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.quote .quote-content .quote-title h2{
+    padding-top: 66px;
+    font-size: 30px;
+}
+.quote .quote-content .quote-title p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.information{
+    width: 300px;
+    margin-top: 45px;
+    margin: 45px 30px 0px 30px;
+}
+
+.information h3{
+    font-size: 18px;
+}
+
+.information p{
+    font-size: 12px;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+.adderes{
+    margin-top: 34px;
+}
+.adderes dl{
+    line-height: 20px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+.adderes dl dd img{
+    margin-right: 20px;
+}
+
+/* quote结束 */    
+
+.copy{
+    height: 76px;
+    background: #303441;
+    position: relative;
+}
+
+.copy .copy-right{
+    position: absolute;
+    left: 42px;
+    top: 30px;
+}
+
+.copy .copy-right{
+    font-size: 12px;
+    color: #fff;
+    font-family: serif;
+}
+
+.copy .social{
+    position: absolute;
+    right: 40px;
+    top: 0px;
+}
+
+.copy .social ul li{
+    float: left;
+    line-height: 76px;
+    margin-left: 8px;
+}
+
+.copy .social ul li img{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
